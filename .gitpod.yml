@@ -1,0 +1,45 @@
+# The Docker image to run your workspace in. Defaults to gitpod/workspace-full
+image:
+  file: 
+    .gitpod.Dockerfile
+# 
+# Command to add your extensions
+vscode:
+  extensions:
+    - abusaidm.html-snippets@0.2.1:7b7Vkkp6Lem9WOqKCYMq2w==
+
+    - vscode-icons-team.vscode-icons@9.7.0:vWMZFN0zy+UAVL2V5iuz4A==
+
+    # - danwahlin.angular2-snippets@1.0.22:EviI/Ii8LBKh8/upcDoTQw==
+
+    # - stevejpurves.cucumber@0.12.0:hv5YgLEK3ajfASiVwVSZNg==
+
+    # - chris-noring.node-snippets@1.0.0:PgIR5abevF98EsK9e4Yfag==
+
+    - ohansemmanuel.css-grid-snippets@0.0.5:48DM9erPl921XiEsqbvANg==
+
+    - joy-yu.css-snippets@1.0.2:Pryjb4o9vkR9EEiZ1Ji6eg==
+
+    - xabikos.JavaScriptSnippets@1.7.2:XXmiw8r7K3Guifex/E73aQ==
+
+    - thekalinga.bootstrap4-vscode@6.1.0:duaQhthWtxWBzXAGe+5GKQ==
+
+    # - humao.rest-client@0.23.1:6h8MtKechdbKfXktY+Pi1A==
+
+    - Mikael.Angular-BeastCode@8.1.2:mhd8UtJbsGDazjdWNkLewQ==
+
+    - johnpapa.Angular2@8.3.0:kWg89AtIiBtGPTjCOivJBQ==
+
+    - redhat.vscode-yaml@0.6.1:Lngx1V8Nd6ig2dgVcDntyQ==
+# 
+# Command to start on workspace startup (optional)
+#tasks:
+#  - init: yarn install
+#  - command: yarn build
+#  - command: "npm install && npm run serve"
+# 
+# Ports to expose on workspace startup (optional)
+ports:
+  - port: 8000
+    onOpen: open-preview
+    
