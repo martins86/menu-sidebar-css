@@ -41,5 +41,6 @@ vscode:
 # Ports to expose on workspace startup (optional)
 ports:
   - port: 8000
+  - port: 5500
     onOpen: open-preview
     
